@@ -12,17 +12,17 @@ Download OpenMPT and open the 'template.mod' file. To make sure you don't overwr
 ## Writing music
 The two OpenMPT features that we will be using are the Patterns and Sequences. A pattern is a 64 row table split into 4 main channels were you place the notes of the track. A sequence is a collection of patterns, for example you could have 3 patterns and play them in the order 0->1->2->3 or 2->3->2->1.  
 The template file contains 4 empty patterns in a 0->1->2->3 sequence. The image below explains how the interface is layed out:
-![Labelled OpenMPT interface](docs/labelledinterface.PNG)
+![Labelled OpenMPT interface](/docs/labelledinterface.PNG?raw=true)
 Notes can be added to the pattern by clicking in the pattern table and then using your computer keyboard as a musical keyboard. The top row of the keyboard from 'Q' to ']' will write notes from C4 to B4. The next row from 'A' to '#' will write notes from C5 to B5 and so on. Also these keys can be used to record music live by making sure the record indicator is on and then pressing play. As you play notes these will be added to the pattern. To remove a note, select it with the mouse and press the space bar.  
 To change the instrument you are writing with select it from the drop down list at the top. Make sure to only use the instrument in the correct channels otherwise it will not work on the GameBoy. For example, channel 4 should only use instruments from 16->32, these are labelled with a '4' in the instrument name.  
 Double click on a note to change it's data, this will bring up the following dialog:
-![OpenMPT note edit dialog](docs/noteeditdialog.PNG)
+![OpenMPT note edit dialog](/docs/noteeditdialog.PNG?raw=true)
 Change the note or instrument here and also adjust the effect for this note, most commonly you will want to adjust the volume.  
 To adjust the pattern sequence click and drag them along the sequence boxes. Right click to copy/delete patterns.
 
 ## Playback 
 Playback can be controlled either for the pattern you are writing or for the whole sequence:
-![Labelled OpenMPT playback interface](docs/labelledplayback.PNG)
+![Labelled OpenMPT playback interface](/docs/labelledplayback.PNG?raw=true)
 A useful button to know about is the 'Stop hanging note' button, this is needed as sometimes a note will continue to play even when the playback is stopped. 
 
 ## GameBoy conversion
